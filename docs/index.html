@@ -16,23 +16,22 @@
         }
 
         #myIframe {
-            width: 95%;         /* Start with a percentage of the viewport width */
-            height: 500px;     /* Fixed height for larger screens */
+            width: 100%;         /* Start with a percentage of the viewport width */
+            height: 100%;     /* Fixed height for larger screens */
             border: none;         /* Remove default border */
-            max-width: 800px;  /* Add a maximum width */
         }
 
         /* Media query for mobile devices (max-width: 768px) */
         @media screen and (max-width: 768px) {
             #myIframe {
                 width: 100%;       /* Take up full width on mobile */
-                height: 300px;     /* Adjust height for mobile */
+                height: 100%;     /* Adjust height for mobile */
             }
         }
         /* Landscape mode for mobile devices */
         @media screen and (max-height: 480px) and (orientation: landscape) {
              #myIframe{
-                height: 200px;
+                height: 100%;
              }
         }
     </style>
